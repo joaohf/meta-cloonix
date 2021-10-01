@@ -1,0 +1,1 @@
+require ${@bb.utils.contains('DISTRO_FEATURES', 'cloonix', 'systemd-serialgetty_cloonix.inc', '', d)}
